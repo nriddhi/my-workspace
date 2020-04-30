@@ -1,0 +1,15 @@
+<script type="text/javascript">
+
+url = new URL(document.URL);
+urlsp = url.searchParams;
+$chck =(encodeURI(urlsp.get("wpdmc")));
+
+if($chck !="null")
+{
+
+	jQuery('html, body').animate({
+        scrollTop: jQuery("#wpdm-all-packages").offset().top
+    }, 2000);
+
+}
+</script>
